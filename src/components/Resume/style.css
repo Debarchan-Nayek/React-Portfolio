@@ -1,0 +1,38 @@
+.resumeDiv{
+    position: relative;
+    background-image: url("../../images/resume-backround.jpg");
+    background-size: cover;
+    background-position: center;
+    margin:10rem 0!important;
+    height: 40vh;
+    text-align: center;
+}
+
+.reume-heading{
+    color: white;
+    text-transform: uppercase;
+    font-family: Roboto Light;
+    letter-spacing: 0.2rem;
+    font-size: 2rem;
+}
+
+.resumeContent{
+    padding: 5rem;
+}
+
+.DownloadBtn {
+    color: #64ffda !important;
+    background-color: Transparent !important;
+    margin-top: 2rem !important;
+    border: 1px solid #63ffda !important;
+}
+
+.DownloadBtn:hover{
+    background-color: rgba(100,255,218,0.1) !important;
+}
+
+@media only screen and (max-width:768px){
+    .reume-heading{
+        font-size: 1.5rem;
+    }
+}

@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&display=swap');
+
+.sectionTitle > p{
+    font-family: 'RobotoMono Regular';
+    margin-bottom: 0 !important;
+    font-size: 1.25rem;
+}
+
+.sectionTitle > h2{
+    font-family: 'Montserrat Bold';
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    color: #ccd6f6;
+}
+
+@media only screen and (max-width: 768px) {
+    h2{
+        font-size: 3rem !important;
+    }
+}

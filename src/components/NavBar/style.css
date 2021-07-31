@@ -1,0 +1,30 @@
+.nav-bar{
+    position: fixed !important;
+    top: 0 !important;
+    width: 100% !important;
+    /* height: 100px !important; */
+    z-index: 1000 !important;
+    opacity: 0.75 !important;
+}
+
+.logoImg{
+    height: 4rem;
+    width: 7rem;
+}
+
+.navLink{
+    text-decoration: none;
+    letter-spacing: 0.5px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    padding: 8px;
+    color: #fff !important;
+    margin-right: 1rem;
+    border-top: 0px;
+    transition: 0.2s;
+}
+
+.navLink:hover {
+    border-top: 3px solid orange;
+}

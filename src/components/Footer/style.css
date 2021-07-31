@@ -1,0 +1,21 @@
+.parentFooter{
+    margin: 70px 0;
+    backgound-color: #020c1b !important;
+}
+
+.social-icons{
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fontIcon{
+    font-size:2rem;
+    color: #a8b2d1;
+    transition: 0.5s;
+}
+
+.fontIcon:hover{
+    font-size: 3.5rem;
+    color: #64ffda;
+}

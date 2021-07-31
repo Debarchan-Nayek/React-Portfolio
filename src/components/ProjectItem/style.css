@@ -1,0 +1,37 @@
+.projectItem_img{
+    width: 100% !important;
+    height: 20rem;
+    overflow: hidden;
+    border-radius: 12px;
+    display: inline-block;
+    border: 3px solid #020c1b;
+}
+
+.projectItem_img > img{
+    height: 100%;
+}
+
+.projectItem_info{
+    border-radius: 12px;
+    text-align: left !important;
+}
+
+.projectItem_title{
+    font-size: 2rem !important;
+    color: #a8b2d1;
+}
+.navbar-toggler:focus
+{
+         outline: none !important;
+         box-shadow: none;
+}
+.projectItem_desc{
+    font-size: 1.25rem;
+    font-family: 'RobotoMono Regular';
+}
+
+@media only screen and (max-width: 768px){
+    .projectItem_img{
+        height: 20rem;
+    }
+}

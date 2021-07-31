@@ -1,0 +1,13 @@
+.contactBanner-wrapper{
+    text-align: center;
+    border: 1px solid #64ffda;
+    border-radius: 12px;
+    letter-spacing: 2px;
+    padding: 3rem 0;
+}
+
+@media only screen and (max-width: 768px){
+    .contactBannerHeading{
+        font-size: 1rem !important;
+    }
+}
